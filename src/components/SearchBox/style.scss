@@ -1,0 +1,23 @@
+.search_box {
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+  align-items: center;
+
+  input {
+    font-size: 1.3em;
+    padding: 0.3em 1em;
+    border: none;
+    background-color: #f0f2a673;
+    border-radius: 8px 0 0 8px;
+    outline: none;
+  }
+  button {
+    height: 100%;
+    border: none;
+    background-color: var(--btn-color-bg);
+    color: white;
+    font-size: 1.1em;
+    border-radius: 0 8px 8px 0;
+    cursor: pointer;
+  }
+}
